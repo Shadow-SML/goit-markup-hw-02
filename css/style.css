@@ -2,14 +2,24 @@
 /* header/footer background #2F303A */
 /* main text color #212121 */
 /* accent color  #2196F3 */
+body {
+  background-color: #ffffff;
+}
 
+button {
+  color: ;
+  box-shadow: ;
+  border-radius: ;
+}
 
-/* navigation panel, Logo */
 .logo {
-    color: #000000;
+  color: #2196f3;
 }
 
-.logo-half {
-    color: #2196F3;
+.logo-black {
+  color: #000000;
 }
 
+.logo-white {
+  color: #ffffff;
+}
