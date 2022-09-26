@@ -1,19 +1,25 @@
 /* main background color #FFFFFF*/
 /* header/footer background #2F303A */
+
 /* main text color #212121 */
 /* second text color  #757575 */
 /* section class="team" background color #F5F4FA */
 /* class="logo" font-family: 'Raleway', sans-serif; */
+/* link tel-mail footer color: rgba(255, 255, 255, 0.6); */
+/* accent button #2196F3 */
+
 body {
+  font-family: 'Roboto', sans-serif;
   background-color: #ffffff;
+  color: #212121;
 }
 
-button {
-  color: ;
-  box-shadow: ;
-  border-radius: 4;
+/* removing link markers */
+.style {
+  list-style: none;
 }
 
+/* site nav */
 .logo {
   font-family: 'Raleway', sans-serif;
   color: #2196f3;
@@ -26,3 +32,37 @@ button {
 .logo-white {
   color: #ffffff;
 }
+
+.nav-link {
+  color: #212121;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #2196f3;
+}
+
+.contacts-link {
+  color: #757575;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+  color: #2196f3;
+}
+
+/* hero */
+.hero-title {
+  color: #ffffff;
+}
+
+/* button {
+  color: ;
+  box-shadow: ;
+  border-radius: 4;
+} */
+
+/* features */
+/* .features .title{
+h2 hidden!!!
+} */
