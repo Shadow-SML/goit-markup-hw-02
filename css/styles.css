@@ -1,7 +1,9 @@
-/* main background color #F5F5F5 */
+/* main background color #FFFFFF*/
 /* header/footer background #2F303A */
 /* main text color #212121 */
-/* accent color  #2196F3 */
+/* second text color  #757575 */
+/* section class="team" background color #F5F4FA */
+/* class="logo" font-family: 'Raleway', sans-serif; */
 body {
   background-color: #ffffff;
 }
@@ -9,10 +11,11 @@ body {
 button {
   color: ;
   box-shadow: ;
-  border-radius: ;
+  border-radius: 4;
 }
 
 .logo {
+  font-family: 'Raleway', sans-serif;
   color: #2196f3;
 }
 
